@@ -10,8 +10,7 @@ reqRouter.keys().forEach((file) => {
   moduleRouter.push(...reqRouter(file).default);
 });
 
-let routes = defaultRoute.concat(moduleRouter);
-console.log(routes);
+let routes = [...defaultRoute, ...moduleRouter];
 const router = new VueRouter({
   routes,
 });

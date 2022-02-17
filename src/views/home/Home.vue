@@ -1,5 +1,5 @@
 <template>
-  <div>11212321</div>
+  <div class="container"><span>12312312</span></div>
 </template>
 
 <script>
@@ -8,3 +8,11 @@ export default {
   mounted() {},
 };
 </script>
+<style lang="scss" scoped>
+.container {
+  > span {
+    font-size: 30px;
+    color: $primary-color;
+  }
+}
+</style>
