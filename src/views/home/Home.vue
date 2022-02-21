@@ -1,12 +1,15 @@
 <template>
-  <div class="container"><span>12312312</span></div>
+  <div class="container"
+    ><span>12312312</span>
+    <empty></empty>
+  </div>
 </template>
 
 <script>
 export default {
-  name: "Home",
-  mounted() {},
-};
+  name: 'Home',
+  mounted() {}
+}
 </script>
 <style lang="scss" scoped>
 .container {
