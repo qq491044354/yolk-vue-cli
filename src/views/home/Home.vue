@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <span>{{ '0' }}</span>
+    <el-button type="primary">11</el-button>
     <empty></empty>
   </div>
 </template>
