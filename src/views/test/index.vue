@@ -1,11 +1,11 @@
 <template>
-  <div>test12</div>
+  <div>2121 </div>
 </template>
 
 <script>
 export default {
-  mounted() {},
-};
+  mounted() {}
+}
 </script>
 
 <style></style>

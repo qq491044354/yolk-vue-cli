@@ -1,13 +1,13 @@
-"use strict";
-const path = require("path");
+'use strict'
+const path = require('path')
 
 function resolve(dir) {
-  return path.join(__dirname, dir);
+  return path.join(__dirname, dir)
 }
 module.exports = {
   lintOnSave: true,
-  chainWebpack: (config) => {
-    config.resolve.alias.set("@", resolve("src"));
+  chainWebpack: config => {
+    config.resolve.alias.set('@', resolve('src'))
   },
   css: {
     // extract:
@@ -18,8 +18,8 @@ module.exports = {
     //     : false,
     loaderOptions: {
       sass: {
-        additionalData: `@import "./src/styles/mixins.scss";`,
-      },
-    },
-  },
-};
+        additionalData: `@import "./src/styles/mixins.scss";`
+      }
+    }
+  }
+}

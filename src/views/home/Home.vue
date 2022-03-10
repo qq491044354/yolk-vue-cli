@@ -1,6 +1,6 @@
 <template>
-  <div class="container"
-    ><span>12312312</span>
+  <div class="container">
+    <span>{{ '0' }}</span>
     <empty></empty>
   </div>
 </template>
