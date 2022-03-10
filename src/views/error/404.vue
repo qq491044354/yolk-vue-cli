@@ -14,9 +14,8 @@
 
 <script>
 export default {
-  name: "404",
-  components: {},
-};
+  components: {}
+}
 </script>
 
 <style lang="scss" scoped>

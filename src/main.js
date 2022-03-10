@@ -10,8 +10,6 @@ import './styles/element-variables.scss' // 注意新增引入element-ui组件�
 // 按需引入element-ui
 import element from './element'
 
-Vue.config.productionTip = false
-
 Vue.use(element)
 Vue.use(plugins)
 // register global utility filters

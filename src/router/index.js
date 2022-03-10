@@ -11,6 +11,7 @@ reqRouter.keys().forEach(file => {
 })
 
 let routes = [...defaultRoute, ...moduleRouter]
+routes.push({ path: '*', redirect: '/404', hidden: true })
 const router = new VueRouter({
   routes
 })
